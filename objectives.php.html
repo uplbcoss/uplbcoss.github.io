@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title> UPLB COSS</title>
+
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+
+<nav class="blue darken-1" role="navigation">
+    <div class="nav-wrapper container" style="margin-left: 10%; ">
+      <a id="logo-container" href="index.php.html" class="brand-logo">UPLB COSS</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="history.php.html" class="center"><strong>HISTORY</strong></a></li>
+        <li><a href="objectives.php.html" class="center"><strong>OBJECTIVES</strong></a></li>
+        <li><a href="activities.php.html" class="center"><strong>ACTIVITIES</strong></a></li>
+        <li><a href="exec.php.html" class="center"><strong>EXECOM</strong></a></li>
+        <li><a href="batches.php.html" class="center"><strong>BATCHES</strong></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="history.php.html" class="center"><strong>HISTORY</strong></a></li>
+        <li><a href="objectives.php.html" class="center"><strong>OBJECTIVES</strong></a></li>
+        <li><a href="activities.php.html" class="center"><strong>ACTIVITIES</strong></a></li>
+        <li><a href="exec.php.html" class="center"><strong>EXECOM</strong></a></li>
+        <li><a href="objectives.php.html#" class="center"><strong>BATCHES</strong></a></li>
+      </ul>
+      <a href="objectives.php.html#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <body>
+
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <!-- <h1 class="header center orange-text">Starter Template</h1> -->
+      <div class="row">
+      <h4 class="center"> OBJECTIVES </h4>
+      <ul id="staggered-test1">
+        <li>
+          <h5>
+            To promote the application of Computer Science and its related fields to socially relevant issues within the Philippine society.
+          </h5>
+        </li>
+      </ul>
+
+      <ul id="staggered-test2">
+        <li>
+          <h5>
+            To excel in every endeavor (not just in academics) and every challenge faced by every member.
+          </h5>
+        </li>
+      </ul>
+
+      <ul id="staggered-test3">
+        <li>
+          <h5>
+            To involve the members in matters concerning the University and the Filipino community.
+          </h5>
+        </li>
+      </ul>
+      
+      <ul id="staggered-test4">
+        <li>
+          <h5>
+            To promote a sense of unity and brotherhood among the members of the organization through participation of its activities.
+          </h5>
+        </li>
+      </ul>
+
+      <ul id="staggered-test5" >
+        <li>
+          <div class="your-class center">
+            <center><div><img class="responsive-img" src="images/banner4.jpg"></div></center>
+            <center><div><img class="responsive-img" src="images/banner5.jpg"></div></center>
+            <center><div><img class="responsive-img" src="images/banner6.jpg"></div></center>
+		  </div>
+        </li>
+      </ul>
+      
+
+      </div>
+      
+      <br><br>
+      
+
+    </div>
+  </div>
+
+
+
+  <footer class="page-footer blue darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 m6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">The UPLB Computer Science Society (UPLB COSS) is a duly recognized academic organization in the University of the Philippines - Los Baños that aims to encourage creative appreciation and wider application in Computer Science. We are located at 2nd Floor Physical Sciences Building, UPLB. (in the middle of the other blue tambayans)</p>
+
+
+        </div>
+        <div class="col l6 m6 s12 center">
+          <!--<img src="images/seal.png" alt="" width="200px" height="200px">-->
+          <img src="images/d4l3.gif" alt="" height="230px">
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Prepared by UPLB COSS Education Committee
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        dots: true,
+        autoplay:true,
+        adaptiveHeight: true
+      });
+
+      $('.video-slider').slick({
+        dots: true,
+        arrows: true
+      });
+      $('.button-collapse2').sideNav('hide');
+    });
+  </script>
+  <script type="text/javascript">
+  var i=0;
+
+  function increase()
+  {
+    i++;
+    Materialize.showStaggeredList('#staggered-test'+i);
+    return false;
+  }
+  </script>
+
+
+  </body>
+</html>

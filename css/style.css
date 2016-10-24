@@ -1,0 +1,124 @@
+
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* body {
+	padding-left: 240px;
+}*/
+
+@media only screen and (max-width : 992px) {
+	 body {
+	  padding-left: 0;
+	}
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2.html) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  word-wrap: normal;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.fit-in-div {
+  max-width:100%;
+  max-height:100%;
+  width:100%;
+}
+
+@media only screen and (min-width: 993px)
+.nav-container  {
+    width: 85%;
+}
+
+
+.slick-list, .slick-track{
+  width:100%;
+}
+.spon_carousel img{
+    width: 300px;
+    margin-left: 0px;
+  }
+  .spon_carousel {
+  
+    text-align: center;
+  }
+  .spon_carousel .slick-initialized .slick-slider {
+    width:100%;
+  }
+
+  .mainBod{
+    height: 550px;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .bg{
+    height: 550px;
+    width: 100%;
+  }
+
+  @font-face{
+    font-family: masterOfBreak;
+    src: url(../font/masterOfBreak.otf);
+    
+    
+
+  }
+
+  @font-face{
+    font-family: Montserrat-regular;
+    src: url(../font/montserrat-regular.ttf);
+
+  }
+
+  @font-face{
+    font-family: Montserrat-B;
+    src: url(../font/montserrat-bold.ttf);
+  }
+
+  #upcomingEvents{
+    font-family: Montserrat-B;
+    color: #1565c0;
+    text-transform: uppercase;
+
+  }
+
+  .hr-1{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  .hr-2{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
