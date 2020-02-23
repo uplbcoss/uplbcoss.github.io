@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title> UPLB COSS | Games Day 2020</title>
+
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/jquery.bracket.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+
+<nav class="blue darken-1" role="navigation">
+    <div class="nav-wrapper container" style="margin-left: 10%; ">
+      <a id="logo-container" href="index.php.html" class="brand-logo">UPLB COSS</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="history.php.html" class="center"><strong>HISTORY</strong></a></li>
+        <li><a href="objectives.php.html" class="center"><strong>OBJECTIVES</strong></a></li>
+        <li><a href="activities.php.html" class="center"><strong>ACTIVITIES</strong></a></li>
+        <li><a href="exec.php.html" class="center"><strong>EXECOM</strong></a></li>
+        <li><a href="batches.php.html" class="center"><strong>BATCHES</strong></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="history.php.html" class="center"><strong>HISTORY</strong></a></li>
+        <li><a href="objectives.php.html" class="center"><strong>OBJECTIVES</strong></a></li>
+        <li><a href="activities.php.html" class="center"><strong>ACTIVITIES</strong></a></li>
+        <li><a href="exec.php.html" class="center"><strong>EXECOM</strong></a></li>
+        <li><a href="activities.php.html#" class="center"><strong>BATCHES</strong></a></li>
+      </ul>
+      <a href="activities.php.html#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <body>
+
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h2 class="header center">Games Day 2020</h2>
+      <div class="row">
+        <div><h4>Group Stage</h4></div>
+        <div class="row">
+          <div class="col s12 m6 l6">
+            <h5>Bracket A</h5>
+            <table>
+              <thead>
+                <tr>
+                    <th>Team Name</th>
+                    <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2 Koreans Can't Win</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>GLXY TRUE FORM</td>
+                  <td>2-1</td>
+                </tr>
+                <tr>
+                  <td>LOADING... 100% SWAG</td>
+                  <td>1-2</td>
+                </tr>
+                <tr>
+                  <td>EXECUTIONERS</td>
+                  <td>0-3</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col s12 m6 l6">
+            <h5>Bracket B</h5>
+            <table>
+              <thead>
+                <tr>
+                    <th>Team Name</th>
+                    <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>side bet po</td>
+                  <td>3-0</td>
+                </tr>
+                <tr>
+                  <td>TEAM SOL</td>
+                  <td>2-1</td>
+                </tr>
+                <tr>
+                  <td>MANCHETAMATICS</td>
+                  <td>1-2</td>
+                </tr>
+                <tr>
+                  <td>Blade of the Exile</td>
+                  <td>0-3</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div><h4>Playoffs</h4></div>
+        <div class="demo">
+        </div>
+      </div>
+      
+      <br><br>
+      
+
+    </div>
+  </div>
+
+
+
+  <footer class="page-footer blue darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 m6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">The UPLB Computer Science Society (UPLB COSS) is a duly recognized academic organization in the University of the Philippines - Los Baños that aims to encourage creative appreciation and wider application in Computer Science. We are located at 2nd Floor Physical Sciences Building, UPLB. (in the middle of the other blue tambayans)</p>
+
+
+        </div>
+        <div class="col l6 m6 s12 center">
+          <!--<img src="images/seal.png" alt="" width="200px" height="200px">-->
+          <img src="images/d4l3.gif" alt="" height="230px">
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Prepared by UPLB COSS Education Committee
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/jquery.bracket.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+      var singleElimination = {
+        "teams": [
+          ["side bet po", "GLXY TRUE FORM"],
+          ["2 Koreans Can't Win", "TEAM SOL"]
+        ],
+        "results": [            // List of brackets (single elimination, so only one bracket)
+          [                     // List of rounds in bracket
+            [                   // First round in this bracket
+              [0, 0],           // Team 1 vs Team 2
+              [0, 0]
+            ]
+          ]
+        ]
+      }
+
+      $('.demo').bracket({
+        init: singleElimination,
+        teamWidth:200,
+        skipConsolationRound:true
+      });
+
+      $('.your-class').slick({
+        dots: true,
+        arrows: true,
+        autoplay:false,
+        adaptiveHeight: true
+      });
+
+      $('.video-slider').slick({
+        dots: true,
+        arrows: true
+      });
+      $('.button-collapse2').sideNav('hide');
+    });
+  </script>
+  <script type="text/javascript">
+  var i=0;
+
+  function increase()
+  {
+    i++;
+    Materialize.showStaggeredList('#staggered-test'+i);
+    return false;
+  }
+  </script>
+
+
+  </body>
+</html>
